@@ -1,0 +1,42 @@
+#header {background-color: #FFF; position: fixed; width: 100%; z-index: 10001;}
+#header-inline {}
+#inline-header-container {padding: 15px 0px;}
+#header-left {float: left; width: 30%;}
+#header-left img {max-width: 100%;}
+#header-right {float: left; width: 70%; padding-top: 10px; position: relative;}
+#header-search-container {float: left; position: relative; width: 100%; max-width: 280px;}
+#text-header-search {width: 100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; background: #f4f6f8; border: 0px; font-style: italic; color: #999999; padding: 7px 25px 7px 12px;}
+#btn-header-search {background: url('../img/icon-search.png') no-repeat 0 0; width: 16px; height: 16px; border: 0px; cursor: pointer; position: absolute; top: 5px; right: 5px;}
+#header-right-top {margin-bottom: 25px;}
+#header-top-menu-container {overflow: hidden; text-align: right; font-size: 12px;}
+#header-top-menu-container ul{list-style: none;}
+#header-top-menu-container li {float: right; margin: 0px 5px;}
+#header-top-menu-container li.right {margin-right: 0px;}
+#header-top-menu-container li a {color: #0085b2; text-decoration: none;}
+#header-top-menu-container li a:hover {text-decoration: underline;}
+#header-menu-container ul{list-style: none; padding-left: 0;}
+#header-menu-container li{float: left; margin: 0px 1.9%;}
+#header-menu-container li.left {margin-left: 0;}
+#header-menu-container li.right {margin-right: 0;}
+#header-menu-container li a {color: #111; text-decoration: none;}
+#header-menu-container li a:hover {color: #0085B2;}
+#header-menu-container ul ul.sub-menu, #header-menu-container ul ul ul.sub-menu2, #header-menu-container ul ul ul ul.sub-menu3 {display: none;}
+#header-menu-container ul li:hover > ul.sub-menu {display: block;}
+#header-menu-container ul ul.sub-menu li:hover > ul.sub-menu2 {display: block;}
+#header-menu-container ul ul ul.sub-menu2 li:hover > ul.sub-menu3 {display: block;}
+#header-menu-container ul ul.sub-menu {background: #eaedf2; border-radius: 0px; padding: 0; position: absolute; top: 100%; z-index: 9999;}
+#header-menu-container ul ul.sub-menu li, #header-menu-container ul ul ul.sub-menu2 li, #header-menu-container ul ul ul ul.sub-menu3 li {float: none; border: 0px; margin: 0; position: relative;}
+#header-menu-container ul ul.sub-menu li.white-space {background: #FFF; height: 27px;}
+#header-menu-container ul ul.sub-menu li a, #header-menu-container ul ul ul.sub-menu2 li a, #header-menu-container ul ul ul ul.sub-menu3 li a {color: #111; display: block; padding: 10px 20px;}
+#header-menu-container ul ul.sub-menu li a:hover, #header-menu-container ul ul ul.sub-menu2 li a:hover, #header-menu-container ul ul ul ul.sub-menu3 li a:hover {background: #4b545f; color: #FFF; text-decoration: none;}
+#header-menu-container ul ul ul.sub-menu2 {width: 200%; max-width: 200px;background: #c8cbd0; border-radius: 0px; padding: 0; left: 100%; position: absolute; top: 0; z-index: 9999;}
+#header-menu-container ul ul ul ul.sub-menu3 {width: 200%; max-width: 200px;background: #9598a0; border-radius: 0px; padding: 0; left: 100%; position: absolute; top: 0; z-index: 9999;}
+#header-menu-mobile-button {display: none; cursor: pointer; width: 20px; height: 15px; background: url('../img/mobile-button-menu.png') no-repeat 0 0; position: absolute; top: 20px; right: 0;}
+#header-menu-mobile {z-index: 9999; display: none; position: absolute; top:55px; right: 0; left: 0; border: 1px solid #444; background-color: #FFF;}
+#header-menu-mobile ul {list-style: none; padding-left: 0; margin: 0;}
+#header-menu-mobile li {padding: 10px;}
+#header-menu-mobile li a {text-decoration: none; color: #111;}
+.mobile-sub-menu {background-color: #EEE; padding-left: 20px !important;}
+.mobile-sub-menu2 {background-color: #DDD; padding-left: 30px !important;}
+.mobile-sub-menu3 {background-color: #CCC; padding-left: 40px !important;}
+.mobile-sub-menu, .mobile-sub-menu2, .mobile-sub-menu3 {display: none;}

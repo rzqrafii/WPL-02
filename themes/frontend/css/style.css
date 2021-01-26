@@ -1,0 +1,163 @@
+html, body {height: 100%; margin: 0; font-size: 15px; color: #444; font-family: "Myriad Pro Regular", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+.clear {clear:both}
+a img {border: 0;}
+
+a {color: #111; text-decoration: none;}
+a:hover {color: #0085B2;}
+
+div[id$="-inline"], div[class$="-inline"] {width: 100%; max-width: 1000px; margin: 0 auto;}
+
+div[class^="block-"] {margin-right: 2%; margin-bottom: 2%; float: left;}
+div[class^="block-"].right {margin-right: 0;}
+.block-3 {width: 100%; margin-right: 0; position: relative;}
+.block-2 {width: 66%; position: relative;}
+.block-1 {width: 32%; position: relative;}
+.block-bg-white {background-color: #FFF;}
+.header-block {background-color: #d63d35; padding: 15px 15px 15px 20px; color: #FFF;}
+.inline-header-block {padding-left: 30px;}
+.inline-content-block {padding: 20px;}
+#block-register, #block-login {min-height: 311px;}
+#header-block-register .inline-header-block {background: url('../img/icon-register.png') no-repeat 0 0 #d63d35;}
+#header-block-login .inline-header-block {background: url('../img/icon-login.png') no-repeat 0 0 #d63d35;}
+#table-register, #table-login {width: 100%;}
+#table-register input[type="text"], #table-register input[type="password"], #table-login input[type="text"], #table-login input[type="password"] {width: 100%; color: #999; border: 1px solid #CCC; font-size: 14px; font-family: "Myriad Pro Regular"; padding: 10px 15px; box-sizing: border-box; -webkit-box-sizing:border-box; -moz-box-sizing: border-box;}
+.alert-error {font-size: 14px; color: #b94a48; background-color: #f2dede; border: 1px solid #eed3d7; padding: 8px 35px 8px 14px; margin-bottom: 20px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+.alert-success {font-size: 14px; color: #468847; background-color: #dff0d8; border: 1px solid #d6e9c6; padding: 8px 35px 8px 14px; margin-bottom: 20px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
+#btn-register-container {text-align: center;}
+#btn-register, #btn-login {cursor: pointer; font-family: "Myriad Pro Regular"; font-size: 20px; background-color: #d63d35; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 10px 10%; color: #FFF; border: 0px;}
+#btn-login {width: 100%; font-size: 15px;}
+#table-login a {color: #999; text-decoration: none; font-size: 14px;}
+#table-login a:hover {text-decoration: underline;}
+#table-login input[type="text"], #table-login input[type="password"] {margin-bottom: 15px;}
+
+#wrap {min-height: 100%; background-color: #eaedf2;}
+
+#main {overflow:auto; padding-bottom: 320px; padding-top: 124px;}
+
+.row-block {display:table;}
+
+.nivo-caption {padding: 20px; line-height: 1.5em; font-family: "Myriad Pro Semibold"; font-size: 20px;}
+
+#inline-container {padding: 40px 0px;}
+#block-slideshow:before {content: ""; display: block; padding-top: 68%;}
+#block-slideshow .inner-block {position: absolute; top: 0; left: 0; bottom: 0;	right: 0;}
+#block-agenda {background: #FFF; height: 100%;}
+#block-agenda .inner-block {position: absolute; top: 0; left: 0; bottom: 0;	right: 0; padding: 15px;}
+#block-agenda h2.title {color: #0085b2; font-size: 29px; font-weight: normal; margin: 0px 0px 10px 0px;}
+#block-agenda:before {content: ""; display: block; padding-top: 140%;}
+.agenda-item {margin-bottom: 20px;}
+.agenda-item a {text-decoration: none;}
+.agenda-item-left {float: left; margin-right: 5%;}
+.month-day-container {border: 1px solid #eee; width: 40px; text-align: center;}
+.month-day-container .month {background-color: #db3b3a; color: #FFF; font-size: 12px; font-weight: bold; padding-top: 4px; text-transform: uppercase;}
+.month-day-container .day {font-size: 18px; font-weight: bold; color: #444;}
+.agenda-item-right {overflow: hidden;}
+.agenda-info {font-size: 14px; color: #000; margin-bottom: 5px;}
+.agenda-date-time {font-size: 13px; color: #878787;}
+
+.row-block {display: table; width: 100%; margin-bottom: 2%;}
+.col {display: table-cell}
+.col1 {width: 68%; padding-right: 2%;}
+.col2 {width: 32%;}
+
+#block-registration {background: url('../img/reg-block-bg.jpg') repeat 0 0; color: #FFF; text-align: center; line-height: 1.5em; max-height: 320px; position: relative; overflow: hidden; background-size: 100% 100%;}
+#block-registration .inner-block {padding: 44px 25px; max-width: 100%;}
+#block-registration a {color: #FFF;}
+#block-registration .title {font-size: 35px; font-family: "Myriad Pro Bold"}
+#block-registration .info {font-family: "Myriad Pro Semibold"; font-size: 15px;}
+#registration-button {background-color: transparent; padding: 10px; margin: 0 auto;}
+#registration-button a {text-decoration: none; border: 2px solid #FFF; padding: 10px 30px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+#registration-button a:hover {background-color: #FFF; color: #d63d35;}
+
+#block-banner img{max-width: 100%; position: relative;}
+
+#block-video {position: relative;  overflow: hidden;}
+#block-video iframe {height: 100% !important;}
+
+#block-cpd {background: url('../img/cpd-block-bg.jpg') repeat 0 0; text-align: center; max-height: 320px; position: relative; overflow: hidden; background-size: 100% 100%;}
+#block-cpd .inner-block {padding: 30px 20px;}
+#block-cpd .logo-small {margin-bottom: 5px;}
+#block-cpd .title {color: #d13f2f; font-size: 29px; line-height: 1em; font-family: "Myriad Pro Bold"; margin-bottom: 25px;}
+#block-cpd .sub-title {color: #666; font-size: 18px; font-family: "Myriad Pro Bold Condensed"; margin-bottom: 30px;}
+#block-cpd .enter {background-color: transparent; padding: 13px 10px 10px 10px; margin: 0 auto; margin-bottom: 30px;}
+#block-cpd .enter a {text-decoration: none; border: 2px solid #666; color: #666; padding: 13px 30px 10px 30px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; font-family: "Myriad Pro Semibold";}
+#block-cpd .enter a:hover {background-color: #666; color: #FFF;}
+
+#block-registration:before, #block-video:before, #block-banner:before, #block-cpd:before {content: ""; display: block; padding-top: 100%;}
+#block-registration .inner-block, #block-video .inner-block, #block-cpd .inner-block, #block-banner .inner-block {position: absolute; top: 0; left: 0; right: 0; bottom: 0;}
+
+#block-spotlight .title{font-family: "Myriad Pro Bold"; font-size: 25px; background-color: #d63d35; color: #FFF; text-align: center; padding: 10px; margin-bottom: 2%;}
+.spotlight-item {float: left; width: 32%; margin-right: 2%; background-color: #FFF;}
+.spotlight-item a {text-decoration: none; color: #444;}
+.spotlight-item a:hover {color: #0085B2;}
+.spotlight-item-inner {padding: 30px;}
+.spotlight-item.right {margin-right: 0;}
+.spotlight-item-title {font-size: 17px; font-family: "Myriad Pro Bold"; margin-bottom: 10px;}
+.spotlight-item-desc {line-height: 1.7em;}
+.spotlight-item-desc img {max-width: 100%; height: auto;}
+
+#logo-slider {width: 100%; max-width: 900px; margin: 0 auto;}
+#logo-slider .slides > li {margin-right: 5px;}
+#footer {position: relative; margin-top: -320px; height: 320px; clear:both; background-color: #FFF; text-align: center;}
+#footer-info {margin-bottom: 40px; line-height: 1.5em;}
+#inner-footer {padding: 25px 0px;}
+.flex-direction-nav .flex-next {right: -50px !important; background: url('../img/carousel-arrow-right.png') no-repeat right center;}
+.flex-direction-nav .flex-prev {left: -50px !important; background: url('../img/carousel-arrow-left.png') no-repeat left center;}
+.flex-direction-nav a:before {display: none;}
+
+/*Opera Fix*/
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;/
+}
+
+#thover{
+	position:fixed;
+	background:#000;
+	width:100%;
+	height:100%;
+	opacity: .6;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+}
+
+#tpopup{
+  position:fixed;
+  width:600px;
+  height:180px;
+  background:#fff;
+  left:50%;
+  top:50%;
+  border-radius:5px;
+  /*padding:60px 0;*/
+  margin-left:-320px; /* width/2 + padding-left */
+  margin-top:-250px; /* height/2 + padding-top */
+  text-align:center;
+  box-shadow:0 0 10px 0 #000;
+  z-index: 99999;
+}
+
+#tpopup img {max-width: 100%; height: auto;}
+
+#tclose{
+  position:absolute;
+  background:black;
+  color:white;
+  right:-15px;
+  top:-15px;
+  border-radius:50%;
+  width:30px;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+  font-size:8px;
+  font-weight:bold;
+  font-family:'Arial Black', Arial, sans-serif;
+  cursor:pointer;
+  box-shadow:0 0 10px 0 #000;
+}
